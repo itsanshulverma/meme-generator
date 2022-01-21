@@ -23,7 +23,7 @@ function, as seen below:
             const data = await res.json()
             setAllMemes(data.data.memes)
         }
-        getMeme()
+        getMemes()
     }, [])
     
     function getMemeImage() {
